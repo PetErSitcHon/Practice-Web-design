@@ -1,0 +1,287 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+  
+}
+   
+
+ header{ 
+    
+    background-color: rgb(0, 0, 0);
+    max-height: 80px;
+    width: 100%;
+    position: fixed;    
+    line-height: 25px;
+   
+} 
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+nav a{ 
+    margin-top: 23px;
+    display: block;
+    float: right;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: arial ;
+    font-weight: bold ;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 15px;
+    margin-right: 40px;
+    transition: transform 300ms ease;
+    font-size: 1vw;
+
+ }
+
+ .naviga:hover{
+    color: red;
+    transform: scale(1.2);
+    
+ }
+
+ #name{
+    margin-top: 25px;
+    display: block;
+    float: left;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: arial ;
+    font-weight: bold ;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-right: 40px;
+    font-size: 1vw;
+  
+ }
+ 
+ #logo{
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 60px;
+    max-width: 80px;
+    float: left;
+    font-size:1vw;
+ }
+
+img{
+    width: 100%;
+    height: auto;
+    background-repeat: no repeat;
+    max-width: 100%;
+  height: auto;
+    
+}
+    
+.container-background{
+    margin-top: 0%;
+    position: relative;
+    display: inline-block;
+}
+
+/* This section is the Web Introduction */
+
+#Webpage-name{
+    text-align: center;
+    font-family: arial black ;
+    font-weight: bold;
+    margin: -1%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(56, 56, 56);
+    max-width: 70%;
+    font-size:6vw;
+
+}
+
+#greeting{
+
+    text-align: center;
+    font-family:monospace ;
+    font-size: 19px;
+    margin: -1%;
+    position: absolute;
+    top: 27%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: rgb(56, 56, 56);
+    font-size: 1vw;
+
+}
+
+
+.Book{
+
+  
+    left: 50%;
+    position: absolute;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    background-color: rgb(187, 0, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: -5%;
+    overflow: hidden;
+    transition:  100ms ease;
+    
+}
+
+.Book:hover{
+    background-color: rgb(56, 56, 56);
+    transform: scale(1.03);
+  
+}
+
+/* The image content css */
+
+.image{
+
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    float: left;
+  
+    
+}
+
+figure{
+    overflow: hidden;
+    margin: 0.9%;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.image #zoom-in img{
+    transform: scale(1);
+    transition: 500ms ease-in-out;
+    border-radius: 5px;
+
+
+}
+
+.image #zoom-in:hover img{
+ transform: scale(1.3);
+ border-radius: 5px;
+
+
+}
+
+.button-details{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.button-details:hover{
+    
+    background-color: black;
+    transform: scale(1.01);
+
+}
+
+
+/* This section is the "about" css design */
+
+.about{
+    margin-top: 0%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+.about-header{
+    padding-top: 30px;
+    font-family: arial;
+    font-size: bold;
+    font-size: 50px
+}
+
+.paragraph{
+    text-align: justify;
+    padding-left: 500px;
+    padding-right: 500px;   
+    font-size: 25px;     
+    font-family: arial;
+    letter-spacing: 2px;
+}
+
+.float-content{
+    background-color: rgb(19, 19, 19);
+    height: 300px;
+    width: 100%;
+    font-family: arial;
+    color: white;
+    
+}
+
+#leftfloat{
+    padding-top: 20px;
+    float: left;
+    width: 50% ;
+    text-align: center;
+}
+
+#right{
+    padding-top: 20px;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#mision-size{
+    font-size: 50px;
+    font-weight: bold;
+}
+.vision-size{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mission-paragraph{
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 25px;    
+    letter-spacing: 2px;
+}
+
+.vision-paragraph{
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 25px;    
+    letter-spacing: 2px;
+}
+
+/* This section is the "  "  css design*/
